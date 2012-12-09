@@ -125,6 +125,9 @@ INSTALLED_APPS = (
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+
+    # Custom application being tested
+    '{{ app_name }}',
 )
 
 # A sample logging configuration. The only tangible logging
