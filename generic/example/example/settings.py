@@ -128,6 +128,9 @@ INSTALLED_APPS = (
 
     # Custom application being tested
     '{{ app_name }}',
+
+    # The app with all of the tests and any example customizations
+    'example_usage',
 )
 
 # A sample logging configuration. The only tangible logging
