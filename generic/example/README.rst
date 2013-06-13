@@ -31,4 +31,4 @@ Once you've installed the various requirements, you can run the tests for
 
 ::
 
-    python manage.py test usage
+    python manage.py test app
