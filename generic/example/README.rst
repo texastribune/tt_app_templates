@@ -31,4 +31,4 @@ Once you've installed the various requirements, you can run the tests for
 
 ::
 
-    python manage.py test example_usage
+    python manage.py test usage

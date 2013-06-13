@@ -125,7 +125,7 @@ INSTALLED_APPS = (
     '{{ app_name }}',
 
     # The app with all of the tests and any example customizations
-    'example_usage',
+    'usage',
 )
 
 # A sample logging configuration. The only tangible logging
