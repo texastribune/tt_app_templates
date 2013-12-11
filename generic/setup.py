@@ -27,7 +27,7 @@ for dirpath, dirnames, filenames in os.walk('{{ app_name }}'):
 
 setup(
     name='{{ app_name }}',
-    version='0.1.0',
+    version='0.0.0',
     description='Texas Tribune: {{ app_name }}',
     author='Tribune Tech',
     author_email='tech@texastribune.org',
