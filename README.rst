@@ -11,12 +11,13 @@ Clone this repository, then use ``django-admin.py startapp`` like this:
 
     django-admin.py startapp \
       --template=/path/to/tt_app_templates/{{ template }} \
-      -e py -e rst -e in \
+      -e py,rst,in,coffee,json \
       new_awesome_app
 
 The ``--template`` option tells Django where to find the base template for
 creating the new application.  The ``-e`` options tell Django to render the
-``.py``, ``.rst``, and ``.in`` files via Django's template language.
+``.py``, ``.rst``, ``.in``, ``.coffee``, and ``.json`` files via Django's
+template language.
 
 
 Provided Templates
