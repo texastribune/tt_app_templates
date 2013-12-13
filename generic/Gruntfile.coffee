@@ -12,10 +12,7 @@ module.exports = (grunt) ->
         files: "{{ app_name }}/**/*.s?ss"
         tasks: ["sass", ]
 
-  TASKS = [
-    "grunt-contrib-sass",
-    "grunt-contrib-watch"
-  ]
-  [grunt.loadNpmTasks a for a in TASKS]
+  grunt.loadNpmTasks "grunt-contrib-sass"
+  grunt.loadNpmTasks "grunt-contrib-watch"
 
   grunt.registerTask "default", ["watch", ]
