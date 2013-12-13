@@ -9,3 +9,4 @@ dist/
 *.pyo
 .sass-cache
 node_modules/
+tt_*/static/tt_*/css/app.css
