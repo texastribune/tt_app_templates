@@ -1,0 +1,21 @@
+{
+  "name": "{{ app_name }}",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/texastribune/{{ app_name }}.git"
+  },
+  "author": "",
+  "license": "Apache Public License 2",
+  "bugs": {
+    "url": "https://github.com/texastribune/{{ app_name }}/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
