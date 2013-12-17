@@ -1,2 +1,2 @@
-include setup.py README.rst MANIFEST.in LICENSE
+include setup.py README.rst MANIFEST.in LICENSE Gruntfile.coffee package.json
 recursive-include {{ app_name }}/static *
